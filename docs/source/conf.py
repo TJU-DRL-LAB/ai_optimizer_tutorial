@@ -51,9 +51,9 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = u'Recommonmark'
-copyright = u'2015, Luca Barbato, Eric Holscher, and contributors'
-author = u'Luca Barbato, Eric Holscher, and contributors'
+project = u'AI Optimizer'
+copyright = u'2022, Xiaotian Hao, Weixun Wang, Hongyao Tang, Tianpei Yang, Fei Ni, Yi Ma and contributors'
+author = u'TJU DRL LAB'
 
 github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
 
@@ -207,7 +207,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Recommonmarkdoc'
+htmlhelp_basename = 'AIOptimizerdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -229,8 +229,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'Recommonmark.tex', u'Recommonmark Documentation',
-   u'Lu Zero, Eric Holscher, and contributors', 'manual'),
+  (master_doc, 'AI Optimizer.tex', u'AI Optimizer Documentation',
+   u'Xiaotian Hao, Weixun Wang, Hongyao Tang, Tianpei Yang, Fei Ni, Yi Ma and contributors', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'recommonmark', u'Recommonmark Documentation',
+    (master_doc, 'AI Optimizer', u'AI Optimizer Documentation',
      [author], 1)
 ]
 
@@ -273,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'Recommonmark', u'Recommonmark Documentation',
-   author, 'Recommonmark', 'One line description of project.',
+  (master_doc, 'AI Optimizer', u'AI Optimizer Documentation',
+   author, 'AI Optimizer', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -295,8 +295,8 @@ def setup(app):
     app.add_config_value('recommonmark_config', {
         #'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Contents',
-        'enable_math': False,
-        'enable_inline_math': False,
+        'enable_math': True,
+        'enable_inline_math': True,
         'enable_eval_rst': True,
         'enable_auto_doc_ref': True,
     }, True)
