@@ -15,7 +15,7 @@ The Multiagent RL repo contains the released codes of representative research wo
 
 ### ❓ Problem to Solve
 
-<p align="center"><img align="center" src="./images/representative_applications.png" alt="Four representative applications of recent successes of MARL: unmanned aerial vehicles, game of Go, Poker games, and team-battle video games."/></p>
+![Four representative applications of recent successes of MARL: unmanned aerial vehicles, game of Go, Poker games, and team-battle video games.](./images/representative_applications.png)
 
 Multi-agent reinforcement learning (MARL) has successfully addressed many complex real-world problems, such as playing the game of Go ([AlphaGo](https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/nature16961%257D&casa_token=JKjRDdaog1cAAAAA:cwpvaRtkWOQi-K-NGT2AT9bNM1kcA5NgXWU7MVIdrI6poJ8FwDxyunnDEpGaOuoUxfA4RzOumao3MqS-8mU), [AlphaGo Zero](https://www.nature.com/articles/nature24270?sf123103138=1)), playing real-time multi-player strategy games ([StarCraft II](https://www.nature.com/articles/s41586-019-1724-z?), [Dota 2](https://arxiv.org/abs/1912.06680), [Honor of Kings](https://arxiv.org/abs/2011.12895))，playing card games ([Poker](https://www.science.org/doi/abs/10.1126/science.aay2400?casa_token=YpsKCNt7LNwAAAAA:POhK0ufRyfzaHXWiywSHPk6nvzugQVsTNYdSZyteYTkRRPA4zccUvmnOBYC2DBFcIytHN9FPqZ-s6SUY), [no-limit Poker](https://www.onlinecasinoground.nl/wp-content/uploads/2018/10/Libratus-super-human-no-limit-poker-Sandholm-Brown.pdf)), [robotic control](https://arxiv.org/abs/1709.06011) and autonomous driving ([Smarts](https://arxiv.org/abs/2010.09776)). However, MARL suffers from several challenges in theoretical analysis, in addition to those that arise in single-agent RL. We summarize below the challenges that we regard as fundamental in developing theories for MARL.
 
@@ -36,7 +36,7 @@ Our target is to design more efficient, more scalable, well-perfomred and much e
 We carry out our studies according to the challenges mentioned above. To solve the the curse of dimensionality issue, we design a series of scalable multiagent neural networks which could efficiently reduce the size of the search space by leveraging the [permutation invariance and permutation equivariance properties](https://arxiv.org/abs/2203.05285), explicitly taking the [action semantics](https://arxiv.org/abs/1907.11461) into consideration, etc. To better make a balance of the exploration–exploitation tradeoff, we propose Progressive Mutual Information Collaboration to achieve more efficient cooperative  exploration... An overall picture of the proposed methods is shown below.
 
 
-<p align="center"><img align="center" src="./images/multiagent-work.png" alt="our solutions"  /></p>
+![](./images/multiagent-work.png)
 
 
 
@@ -123,7 +123,7 @@ For researches from all four pespectives, a unified framework of algorithm and i
 The representations studied from different pespectives further boost various downstream RL tasks.
 Finally, this promotes the deployment and landing of RL in real-world applications.
 
-<div align=center><img align="center" src="./images/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;" /></div>
+![](./images/Ecology_of_SSRL.png)
 
 See more [here](https://github.com/TJU-DRL-LAB/self-supervised-rl).
 
@@ -155,7 +155,7 @@ Recently, Deep Reinforcement Learning (DRL) has achieved a lot of success in hum
 
 This repository contains the released codes of representative benchmarks and algorithms of TJU-RL-Lab on the topic of Transfer and Multi-task Reinforcement Learning, including the single-agent domain and multi-agent domain, addressing the sample-inefficiency problem in different ways.
 
-<p align="center"><img align="center" src="./images/overview.png" alt="overview" style="zoom:60%;" /></p>
+![](./images/overview.png)
 
 
 In this repo, we provide specific solutions of our lab including:
