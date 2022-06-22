@@ -1,7 +1,7 @@
 
 # AI-Optimizer
 AI-Optimizer is a next-generation deep reinforcement learning suit, providing rich algorithm libraries ranging from model-free to model-based RL algorithms, from single-agent to multi-agent algorithms. Moreover, AI-Optimizer contains a flexible and easy-to-use distributed training framework for efficient policy training.
-![](https://github.com/TJU-DRL-LAB/images/AI_Optimizer_overview.png)
+![](./images/AI_Optimizer_overview.png)
 
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
 - [Multiagent Reinforcement learning](https://github.com/TJU-DRL-LAB/multiagent-rl)
@@ -15,7 +15,7 @@ The Multiagent RL repo contains the released codes of representative research wo
 
 ### ❓ Problem to Solve
 
-<p align="center"><img align="center" src="./multiagent-rl/assets/representative_applications.png" alt="Four representative applications of recent successes of MARL: unmanned aerial vehicles, game of Go, Poker games, and team-battle video games."/></p>
+<p align="center"><img align="center" src="./images/representative_applications.png" alt="Four representative applications of recent successes of MARL: unmanned aerial vehicles, game of Go, Poker games, and team-battle video games."/></p>
 
 Multi-agent reinforcement learning (MARL) has successfully addressed many complex real-world problems, such as playing the game of Go ([AlphaGo](https://idp.nature.com/authorize/casa?redirect_uri=https://www.nature.com/articles/nature16961%257D&casa_token=JKjRDdaog1cAAAAA:cwpvaRtkWOQi-K-NGT2AT9bNM1kcA5NgXWU7MVIdrI6poJ8FwDxyunnDEpGaOuoUxfA4RzOumao3MqS-8mU), [AlphaGo Zero](https://www.nature.com/articles/nature24270?sf123103138=1)), playing real-time multi-player strategy games ([StarCraft II](https://www.nature.com/articles/s41586-019-1724-z?), [Dota 2](https://arxiv.org/abs/1912.06680), [Honor of Kings](https://arxiv.org/abs/2011.12895))，playing card games ([Poker](https://www.science.org/doi/abs/10.1126/science.aay2400?casa_token=YpsKCNt7LNwAAAAA:POhK0ufRyfzaHXWiywSHPk6nvzugQVsTNYdSZyteYTkRRPA4zccUvmnOBYC2DBFcIytHN9FPqZ-s6SUY), [no-limit Poker](https://www.onlinecasinoground.nl/wp-content/uploads/2018/10/Libratus-super-human-no-limit-poker-Sandholm-Brown.pdf)), [robotic control](https://arxiv.org/abs/1709.06011) and autonomous driving ([Smarts](https://arxiv.org/abs/2010.09776)). However, MARL suffers from several challenges in theoretical analysis, in addition to those that arise in single-agent RL. We summarize below the challenges that we regard as fundamental in developing theories for MARL.
 
@@ -27,7 +27,7 @@ Multi-agent reinforcement learning (MARL) has successfully addressed many comple
 - **Partial observability**
 - **Hybrid action**
 
-Our target is to design ![image-20220408090029202](https://github.com/TJU-DRL-LAB/multiagent-rl/assets/character.png)MARL algorithms which could solve or alleviate the problems mentioned above and promote the deployment and landing of MARL in more real-world applications.
+Our target is to design more efficient, more scalable, well-perfomred and much easier to use MARL algorithms which could solve or alleviate the problems mentioned above and promote the deployment and landing of MARL in more real-world applications.
 
 
 
@@ -36,7 +36,7 @@ Our target is to design ![image-20220408090029202](https://github.com/TJU-DRL-LA
 We carry out our studies according to the challenges mentioned above. To solve the the curse of dimensionality issue, we design a series of scalable multiagent neural networks which could efficiently reduce the size of the search space by leveraging the [permutation invariance and permutation equivariance properties](https://arxiv.org/abs/2203.05285), explicitly taking the [action semantics](https://arxiv.org/abs/1907.11461) into consideration, etc. To better make a balance of the exploration–exploitation tradeoff, we propose Progressive Mutual Information Collaboration to achieve more efficient cooperative  exploration... An overall picture of the proposed methods is shown below.
 
 
-<p align="center"><img align="center" src="./multiagent-rl/assets/our-work.png" alt="our solutions"  /></p>
+<p align="center"><img align="center" src="./images/multiagent-work.png" alt="our solutions"  /></p>
 
 
 
@@ -84,7 +84,7 @@ This repository contains the codes of representative benchmarks and algorithms o
 
 
 
-![Ecology of Offline RL](https://github.com/TJU-DRL-LAB/AI-Optimizer/blob/main/offline-rl-algorithms/Framework%20of%20Offline%20RL.png)
+![Ecology of Offline RL](./images/ORL_framework.png)
 
 ## Self-supervised Reinforcement Learning (SSRL)
 SSRL repo contains the released codes of representative research works of TJU-RL-Lab on Self-supervised Representation Learning for RL. 
@@ -181,7 +181,7 @@ The current classifications of the mainstream algorithms in the modern Model-Bas
 
 Ignoring the differences in specific methods, the purpose of MBRL algorithms can be more finely divided into four directions as follows: `Reduce Model Error`、`Faster Planning`、` Higher Tolerance to Model Error` 、`Scalability to Harder Problems`.  For the problem of `How to Learn a Model`, we can study on reducing model error to learn a more accurate world model or learning a world model with higher tolerance to model error. For the problem of `How to Utilize a Model`, we can study on faster planning with a learned model or the scalability of the learned model to harder problems.   
 
-![](https://github.com/TJU-DRL-LAB/images/MBRL_framework.png)
+![](./images/MBRL_framework.png)
 ### 💦 Contributions
 #### Why MBRL ?
 
@@ -201,9 +201,4 @@ We expect that our research thoughts and proposed topic for MBRL area can open u
 AI-Optimizer is still under development. More algorithms and features are going to be added and we always welcome contributions to help make AI-Optimizer better. Feel free to contribute.
 
 
-Indices and tables
 
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
