@@ -55,7 +55,7 @@ project = u'AI Optimizer'
 copyright = u'2022, Xiaotian Hao, Weixun Wang, Hongyao Tang, Tianpei Yang, Fei Ni, Yi Ma and contributors'
 author = u'TJU DRL LAB'
 
-github_doc_root = 'https://github.com/rtfd/recommonmark/tree/master/docs/'
+github_doc_root = 'https://github.com/TJU-DRL-LAB/ai_optimizer_tutorial/tree/main/docs'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -293,7 +293,7 @@ texinfo_documents = [
 # app setup hook
 def setup(app):
     app.add_config_value('recommonmark_config', {
-        #'url_resolver': lambda url: github_doc_root + url,
+        'url_resolver': lambda url: github_doc_root + url,
         'auto_toc_tree_section': 'Contents',
         'enable_math': True,
         'enable_inline_math': True,
