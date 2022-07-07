@@ -13,7 +13,7 @@ The current classifications of the mainstream algorithms in the modern Model-Bas
 
 Ignoring the differences in specific methods, the purpose of MBRL algorithms can be more finely divided into four directions as follows: `Reduce Model Error`、`Faster Planning`、` Higher Tolerance to Model Error` 、`Scalability to Harder Problems`.  For the problem of `How to Learn a Model`, we can study on reducing model error to learn a more accurate world model or learning a world model with higher tolerance to model error. For the problem of `How to Utilize a Model`, we can study on faster planning with a learned model or the scalability of the learned model to harder problems.   
 
-![](../images/MBRL_framework.png)
+![](../../images/MBRL_framework.png)
 ## 💦 Contributions
 ### Why MBRL ?
 

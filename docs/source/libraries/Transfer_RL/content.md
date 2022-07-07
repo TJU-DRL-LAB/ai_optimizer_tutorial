@@ -16,7 +16,7 @@ Recently, Deep Reinforcement Learning (DRL) has achieved a lot of success in hum
 
 This repository contains the released codes of representative benchmarks and algorithms of TJU-RL-Lab on the topic of Transfer and Multi-task Reinforcement Learning, including the single-agent domain and multi-agent domain, addressing the sample-inefficiency problem in different ways.
 
-![](../images/overview.png)
+![](../../images/overview.png)
 
 
 In this repo, we provide specific solutions of our lab including:

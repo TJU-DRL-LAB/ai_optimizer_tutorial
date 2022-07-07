@@ -7,12 +7,12 @@ AI-Optimizer is a next-generation deep reinforcement learning suit, providing ri
 
 ## Taxonomy
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
-* [Taxonomy](./libraries)
-  * [Multiagent Reinforcement learning](./libraries/MARL.md)
-  * [Self-supervised Representation Reinforcement Learning](./libraries/SSRL.md)
-  * [Offline Reinforcement Learning](./libraries/Offline_RL.md)
-  * [Transfer and Multi-task Reinforcement Learning](./libraries/Transfer_RL.md)
-  * [Model-based Reinforcement Learning](./libraries/MBRL.md)
+* [Taxonomy](libraries/index.md)
+  * [Multiagent Reinforcement learning](libraries/MARL/content.md)
+  * [Self-supervised Representation Reinforcement Learning](libraries/SSRL/content.md)
+  * [Offline Reinforcement Learning](libraries/Offline_RL/content.md)
+  * [Transfer and Multi-task Reinforcement Learning](libraries/Transfer_RL/content.md)
+  * [Model-based Reinforcement Learning](libraries/MBRL/content.md)
 
 
 

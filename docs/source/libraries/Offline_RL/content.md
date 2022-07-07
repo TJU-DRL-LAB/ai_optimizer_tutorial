@@ -24,4 +24,4 @@ This repository contains the codes of representative benchmarks and algorithms o
 
 
 
-![Ecology of Offline RL](../images/ORL_framework.png)
+![Ecology of Offline RL](../../images/ORL_framework.png)
