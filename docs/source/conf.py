@@ -215,7 +215,9 @@ html_use_index = True
 htmlhelp_basename = 'AIOptimizerdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
-
+# -- Options for PDF output
+latex_engine = 'xelatex'
+latex_use_xindy = False
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
 #'papersize': 'letterpaper',
@@ -224,11 +226,12 @@ latex_elements = {
 #'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': '\\usepackage[UTF8]{ctex}\n',
 
 # Latex figure (float) alignment
 #'figure_align': 'htbp',
 }
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
