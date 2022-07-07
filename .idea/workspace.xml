@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b1ddbe-d18a-4e88-9a1e-5ce660cb450d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/docs/source/libraries/SSRL/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="307">
-                <caret line="146" column="65" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="65" />
+              <first_editor relative-caret-position="227">
+                <caret line="142" selection-start-line="142" selection-end-line="142" />
               </first_editor>
               <second_editor />
             </state>
@@ -150,8 +149,8 @@
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
         <option value="$PROJECT_DIR$/docs/requirements.txt" />
         <option value="$PROJECT_DIR$/docs/source/libraries/Offline_RL/index.md" />
-        <option value="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" />
+        <option value="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" />
       </list>
     </option>
   </component>
@@ -292,18 +291,18 @@
       <workItem from="1655977372440" duration="599000" />
       <workItem from="1655978574370" duration="217000" />
       <workItem from="1656055395374" duration="51000" />
-      <workItem from="1657177164527" duration="7948000" />
+      <workItem from="1657177164527" duration="8258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13297000" />
+    <option name="totallyTimeSpent" value="13607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19685039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.021474589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -527,21 +526,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/libraries/SSRL/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="307">
-            <caret line="146" column="65" selection-start-line="146" selection-start-column="64" selection-end-line="146" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/libraries/MARL/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="417">
             <caret line="105" column="22" lean-forward="true" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/libraries/SSRL/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="227">
+            <caret line="142" selection-start-line="142" selection-end-line="142" />
           </first_editor>
           <second_editor />
         </state>

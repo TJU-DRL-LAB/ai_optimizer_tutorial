@@ -47,7 +47,6 @@ This repository contains the codes of representative benchmarks and algorithms o
 
 an overall view of research works in this repo:
 
-
 | Category | Method and Code Link                                                      | Is Contained | Is ReadME Prepared | Publication | Paper Link |
 | :----------| :-------------------------------------------------------------| :-------------| :-------------------| :------------| -----|
 | IL       | BC                                                           | ✅            | ✅                  |             |      |
@@ -64,6 +63,7 @@ an overall view of research works in this repo:
 | MB       | Conservative Offline Model-Based Policy Optimization (COMBO) | ✅            | ❌                  |   NIPS 2021          |  [COMBO: Conservative Offline Model-Based Policy Optimization](<https://proceedings.neurips.cc/paper/2021/file/f29a179746902e331572c483c45e5086-Paper.pdf>)    |
 | Off2On   | [Advantage Weighted Actor-Critic (AWAC)](./AWAC)                       | ✅            | ✅                  | In progress |  [AWAC: Accelerating Online Reinforcement Learning with Offline Datasets](<https://arxiv.org/pdf/2006.09359.pdf>)    |
 | Off2On   | Balanced Replay (BRED)                                       | ❌          | ❌                  | CoRL 2021   |   [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](<https://arxiv.org/pdf/2107.00591.pdf>)   |
+
 
 
 
