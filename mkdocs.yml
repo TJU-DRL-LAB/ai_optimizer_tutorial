@@ -4,6 +4,7 @@ site_url: https://ai-optimizer-tutorial.readthedocs.io/
 nav:
     - Homepage:
         - 'Introduction': 'index.md'
+        - 'Taxonomy': 'taxonomy.md'
     - Taxonomy:
         - 'Multiagent Reinforcement learning': 'libraries/MARL/index.md'
         - 'Self-supervised Representation Reinforcement Learning': 'libraries/SSRL/index.md'

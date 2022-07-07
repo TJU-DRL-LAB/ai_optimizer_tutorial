@@ -16,34 +16,30 @@ This repository will be constantly updated to include new research works.
 
 **Solutions**
 
-- **Transfer RL** which leverages prior knowledge from previously related tasks to accelerate the learning process of RL, has become one popular research direction to significantly improve sample efficiency of DRL.  
-  
-  In this repo, we provide specific solutions of our lab including:
-  * **PTF** addresses the **Sample-inefficiency problem** in DRL by proposing a novel Policy Transfer Framework (PTF). PTF 1) models multiple policy transfer as option learning to learn when and which source policy is the best to reuse for the target policy and when to terminate it; 2) provides an adaptive and heuristic mechanism to ensure the efficient reuse of source policies and avoid negative transfer. Both existing value-based and policy-based DRL approaches can be incorporated and experimental results show PTF significantly boosts the performance of existing DRL approaches, and outperforms state-of-the-art policy transfer methods both in discrete and continuous action spaces.
-
-  * **MAPTF** addresses the **Sample-inefficiency problem** in deep MARL by proposing a Multi-Agent Policy Transfer Framework (MAPTF). MAPTF learns which agent's policy is the best to reuse for each agent and when to terminate it by modeling multiagent policy transfer as the option learning problem. Furthermore, to solve the reward conflict problem (each agent's experience may be inconsistent with each other, which may cause the inaccuracy and oscillation of the option-value's estimation) due to the partial observability of the environment, a novel option learning algorithm is proposed, the Successor Representation Option (SRO) learning to solve it by decoupling the environment dynamics from rewards and learning the option-value under each agent's preference. MAPTF can be easily combined with existing deep RL and MARL approaches, and experimental results show it significantly boosts the performance of existing methods in both discrete and continuous state spaces.
-
-
+- **Transfer RL** which leverages prior knowledge from previously related tasks to accelerate the learning process of RL, has become one popular research direction to significantly improve sample efficiency of DRL. In this repo, we provide specific solutions of our lab including:
+    - **PTF** addresses the **Sample-inefficiency problem** in DRL by proposing a novel Policy Transfer Framework (PTF). PTF 1) models multiple policy transfer as option learning to learn when and which source policy is the best to reuse for the target policy and when to terminate it; 2) provides an adaptive and heuristic mechanism to ensure the efficient reuse of source policies and avoid negative transfer. Both existing value-based and policy-based DRL approaches can be incorporated and experimental results show PTF significantly boosts the performance of existing DRL approaches, and outperforms state-of-the-art policy transfer methods both in discrete and continuous action spaces.
+    - **MAPTF** addresses the **Sample-inefficiency problem** in deep MARL by proposing a Multi-Agent Policy Transfer Framework (MAPTF). MAPTF learns which agent's policy is the best to reuse for each agent and when to terminate it by modeling multiagent policy transfer as the option learning problem. Furthermore, to solve the reward conflict problem (each agent's experience may be inconsistent with each other, which may cause the inaccuracy and oscillation of the option-value's estimation) due to the partial observability of the environment, a novel option learning algorithm is proposed, the Successor Representation Option (SRO) learning to solve it by decoupling the environment dynamics from rewards and learning the option-value under each agent's preference. MAPTF can be easily combined with existing deep RL and MARL approaches, and experimental results show it significantly boosts the performance of existing methods in both discrete and continuous state spaces.
 - **Multi-task RL**, in which one network learns policies for multiple tasks, has emerged as another promising direction with fast inference and good performance.
 
 ## Directory Structure of this Repo
 
-This repository consists of 
- * Single-agent Transfer RL
- * Single-agent Multi-task RL
- * Multi-agent Transfer RL
+This repository consists of:
+
+- Single-agent Transfer RL
+- Single-agent Multi-task RL
+- Multi-agent Transfer RL
 
 An overview of research works in this repository:
 
 | Category | Sub-Categories | Method |  Is Contained  | Publication | Link |
 | ------ | ------ | ----- | --- | ------ | ------ |
-| Single-agent Transfer RL | Same-domain Transfer | PTF  | :white_check_mark: |IJCAI 2020| https://dl.acm.org/doi/abs/10.5555/3491440.3491868 |
-| Single-agent Transfer RL | Same-domain Transfer | CAPS  | :white_check_mark: |AAMAS 2019| https://dl.acm.org/doi/abs/10.5555/3306127.3331795 |
-| Single-agent Transfer RL | Cross-domain Transfer| CAT  | :white_check_mark: | UAI 2022 | https://openreview.net/forum?id=ShN3hPUsce5 |
-| Single-agent Transfer RL | Cross-domain Transfer| MIKT  | :x: | UAI 2020 | https://dl.acm.org/doi/abs/10.5555/3306127.3331795 |
-| Multi-agent Transfer RL | Same task, transfer across agents | MAPTF  | :white_check_mark: | NeurIPS 2021 | https://proceedings.neurips.cc/paper/2021/hash/8d9a6e908ed2b731fb96151d9bb94d49-Abstract.html|
-| Multi-agent Transfer RL | Same task, transfer across agents | DVM  | :white_check_mark: | IROS 2019 | https://dl.acm.org/doi/abs/10.5555/3306127.3331795|
-| Multi-agent Transfer RL | Policy reuse across tasks | Bayes-ToMoP  | :white_check_mark: | IJCAI 2019 | https://dl.acm.org/doi/abs/10.5555/3367032.3367121|
+| Single-agent Transfer RL | Same-domain Transfer | PTF  | ✅ |IJCAI 2020| https://dl.acm.org/doi/abs/10.5555/3491440.3491868 |
+| Single-agent Transfer RL | Same-domain Transfer | CAPS  | ✅ |AAMAS 2019| https://dl.acm.org/doi/abs/10.5555/3306127.3331795 |
+| Single-agent Transfer RL | Cross-domain Transfer| CAT  | ✅ | UAI 2022 | https://openreview.net/forum?id=ShN3hPUsce5 |
+| Single-agent Transfer RL | Cross-domain Transfer| MIKT  | ❌ | UAI 2020 | https://dl.acm.org/doi/abs/10.5555/3306127.3331795 |
+| Multi-agent Transfer RL | Same task, transfer across agents | MAPTF  | ✅ | NeurIPS 2021 | https://proceedings.neurips.cc/paper/2021/hash/8d9a6e908ed2b731fb96151d9bb94d49-Abstract.html|
+| Multi-agent Transfer RL | Same task, transfer across agents | DVM  | ✅ | IROS 2019 | https://dl.acm.org/doi/abs/10.5555/3306127.3331795|
+| Multi-agent Transfer RL | Policy reuse across tasks | Bayes-ToMoP  | ✅ | IJCAI 2019 | https://dl.acm.org/doi/abs/10.5555/3367032.3367121|
 
 
 ## Liscense

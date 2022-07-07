@@ -1,5 +1,12 @@
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
 
+* Taxonomy
+    * [Multiagent Reinforcement learning](libraries/MARL/index.md)
+    * [Self-supervised Representation Reinforcement Learning](libraries/SSRL/index.md)
+    * [Offline Reinforcement Learning](libraries/Offline_RL/index.md)
+    * [Transfer and Multi-task Reinforcement Learning](libraries/Transfer_RL/index.md)
+    * [Model-based Reinforcement Learning](libraries/MBRL/index.md)
+
 # Multiagent Reinforcement Learning (MARL)
 The Multiagent RL repo contains the released codes of representative research works of TJU-RL-Lab on Multiagent Reinforcement Learning (MARL). 
 
@@ -38,14 +45,14 @@ The main contribution of this repository is that:
 
 - **For researchers,** we provide a systematic overview of typical challenges in MARL from different perspectives, each of which is a very valuable research direction and contains a series recent research works. We hope with our research works and the corresponding released codes can make it easier for researchers to design new algorithms. 
 
-  - For example, given the significant interest in designing novel MARL architectures over the past few years, the research direction of [scalable multiagent networks](https://github.com/TJU-DRL-LAB/Multiagent-RL/tree/304dc434f5be947641ab8eed9857a034f3ec1507/scalability) is definitely of interest to the MARL community. More recently, the notion of *permutation-invariance* and *permutation-equivariance* in the design of MARL agents has relatively drawn less attention than deserved, and therefore the presented idea in [API paper](https://arxiv.org/pdf/2203.05285.pdf) is interesting and very relevant to MARL researchers.
+    - For example, given the significant interest in designing novel MARL architectures over the past few years, the research direction of [scalable multiagent networks](https://github.com/TJU-DRL-LAB/Multiagent-RL/tree/304dc434f5be947641ab8eed9857a034f3ec1507/scalability) is definitely of interest to the MARL community. More recently, the notion of *permutation-invariance* and *permutation-equivariance* in the design of MARL agents has relatively drawn less attention than deserved, and therefore the presented idea in [API paper](https://arxiv.org/pdf/2203.05285.pdf) is interesting and very relevant to MARL researchers.
 
 - **For practitioners**,  we release a serials of **efficient, scalable, well-performed** and **easy to use** MARL algorithms which achieve superior performance in the typical benchmarks of the MARL research community. 
 
-  - For example, the API-QMIX, API-VDN, API-MAPPO and API-MADDPG algorithms proposed in our paper ["API: Boosting Multi-Agent Reinforcement Learning via Agent-Permutation-Invariant Networks"](https://arxiv.org/pdf/2203.05285.pdf) achieve State-Of-The-Art Performance in the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) and [Multi-agent Particle Environment](https://github.com/openai/multiagent-particle-envs) benchmarks, which achieves **100% win-rates in almost all hard and super-hard SMAC scenarios (never achieved before)**.
-  - **We strongly recommend** that practitioners **try and use our API-Network solution FIRST** when solving practical MARL problems (because it is very easy to use and does work very well) !  We hope our works can promote the deployment and landing of MARL in more real-world applications.
+    - For example, the API-QMIX, API-VDN, API-MAPPO and API-MADDPG algorithms proposed in our paper ["API: Boosting Multi-Agent Reinforcement Learning via Agent-Permutation-Invariant Networks"](https://arxiv.org/pdf/2203.05285.pdf) achieve State-Of-The-Art Performance in the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) and [Multi-agent Particle Environment](https://github.com/openai/multiagent-particle-envs) benchmarks, which achieves **100% win-rates in almost all hard and super-hard SMAC scenarios (never achieved before)**.
+    - **We strongly recommend** that practitioners **try and use our API-Network solution FIRST** when solving practical MARL problems (because it is very easy to use and does work very well) !  We hope our works can promote the deployment and landing of MARL in more real-world applications.
 
-See more [here](MARL/index.md).
+See more [here](libraries/MARL/index.md).
 
 
 # Self-supervised Reinforcement Learning (SSRL)
@@ -87,12 +94,11 @@ Finally, this promotes the deployment and landing of RL in real-world applicatio
 
 ![](../images/Ecology_of_SSRL.png)
 
-See more [here](SSRL/index.md).
+See more [here](libraries/SSRL/index.md).
 
 ## 💦 Contribution
 
 With this repo and our research works, we want to draw the attention of RL community to studies on Self-supervised Representation Learning for RL.
-
 - For people who are insterested in RL, our introduction in this repo and our [blogs](https://zhuanlan.zhihu.com/p/413321572) can be a preliminary tutorial.
 - For cutting-edge RL researchers, we believe that our research thoughts and the proposed SSRL framework are insightful and inspiring, openning up new angles for future works on more advanced RL.
 - For RL practicers (especially who work on related fields), we provide advanced RL algorithms with strong performance in online RL (e.g., [PPO-PeVFA](https://github.com/TJU-DRL-LAB/self-supervised-rl/RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA)), hybrid-action decision-making (e.g., [HyAR](https://github.com/TJU-DRL-LAB/self-supervised-rl/RL_with_Action_Representation/HyAR)), policy adaptation from offline experience (e.g., [PAnDR](https://github.com/TJU-DRL-LAB/self-supervised-rl/RL_with_Environment_Representation/PAnDR)) ..., which can be adopted or developed in associated academic and industrial problems.
@@ -103,29 +109,31 @@ We are also looking forward to feedback in any form to promote more in-depth res
 # Offline-rl-algorithms (Offrl)
 ## ❓ Problem to Solve
 Current deep RL methods still typically rely on active data collection to succeed, hindering their application in the real world especially when the data collection is dangerous or expensive.  Offline RL (also known as batch RL) is a data-driven RL paradigm concerned with learning exclusively from static datasets of previously-collected experiences. In this setting, a behavior policy interacts with the environment to collect a set of experiences, which can later be used to learn a policy without further interaction. This paradigm can be extremely valuable in settings where online interaction is impractical. However, current offline rl methods are restricted to three challenges: 
- * Low upper limit of algorithm: The quality of offline data determines the performance of offline reinforcement learning algorithms. How to expand low-quality offline data without additional interaction to increase the learning upper limit of offline reinforcement learning algorithms?
- * Poor algorithm effect: Existing off-policy/offline algorithm trains on the offline data distribution. When interacting with the environment, the distribution of the accessed state-action may change compared with the offline data (Distributional Shift). In this situation, the Q value of the <state, action> pair is easy to be overestimated, which affects the overall performance. How to characterize the data outside the offline data distribution (Out Of Distribution, OOD) to avoid overestimation?
- * Difficulty in applying the algorithm: Due to the limited quality of the dataset, the learned strategy cannot be directly deployed in the production environment, and further online learning is required. How to design data sampling in the online training phase to avoid the sudden drop in the initial performance of the strategy due to the redundant data generated by the distribution change, and quickly converge to the optimal solution in a limited number of interactions?
+
+- Low upper limit of algorithm: The quality of offline data determines the performance of offline reinforcement learning algorithms. How to expand low-quality offline data without additional interaction to increase the learning upper limit of offline reinforcement learning algorithms?
+- Poor algorithm effect: Existing off-policy/offline algorithm trains on the offline data distribution. When interacting with the environment, the distribution of the accessed state-action may change compared with the offline data (Distributional Shift). In this situation, the Q value of the <state, action> pair is easy to be overestimated, which affects the overall performance. How to characterize the data outside the offline data distribution (Out Of Distribution, OOD) to avoid overestimation?
+- Difficulty in applying the algorithm: Due to the limited quality of the dataset, the learned strategy cannot be directly deployed in the production environment, and further online learning is required. How to design data sampling in the online training phase to avoid the sudden drop in the initial performance of the strategy due to the redundant data generated by the distribution change, and quickly converge to the optimal solution in a limited number of interactions?
 
 ## 💦 Contribution
 This repository contains the codes of representative benchmarks and algorithms on the topic of Offline Reinforcement Learning. The repository is developed based on d3rlpy(https://github.com/takuseno/d3rlpy) following MIT license to shed lights on the research on the above three challenges. While inheriting its advantages, the additional features include (or will be included):
- - A unified algorithm framework with rich and fair comparisons bewteen different algorithms:
-   - REDQ
-   - UWAC
-   - BRED
-   - …
- - Abundant and real-world datasets:
-   - Real-world industrial datasets
-   - Multimodal datasets
-   - Augmented datasets (and corresponding methods)
-   - Datasets obtained using representation learning (and corresponding methods)
- - More easy-to-use log systems support: 
-   - Wandb
+
+- A unified algorithm framework with rich and fair comparisons bewteen different algorithms:
+    - REDQ
+    - UWAC
+    - BRED
+    - …
+- Abundant and real-world datasets:
+    - Real-world industrial datasets
+    - Multimodal datasets
+    - Augmented datasets (and corresponding methods)
+    - Datasets obtained using representation learning (and corresponding methods)
+- More easy-to-use log systems support: 
+    - Wandb
 
 
 ![Ecology of Offline RL](../images/ORL_framework.png)
 
-See more [here](Offline_RL/index.md).
+See more [here](libraries/Offline_RL/index.md).
 
 # Transfer and Multi-task Reinforcement Learning
 Recently, Deep Reinforcement Learning (DRL) has achieved a lot of success in human-level control problems, such as video games, robot control, autonomous vehicles, smart grids and so on. However, DRL is still faced with the **sample-inefficiency problem** especially when the state-action space becomes large, which makes it difficult to learn from scratch. This means the agent has to use a large number of samples to learn a good policy. Furthermore, the sample-inefficiency problem is much more severe in Multiagent Reinforcement Learning (MARL) due to the exponential increase of the state-action space.  
@@ -154,7 +162,7 @@ In this repo, we provide specific solutions of our lab including:
 
 * **KTM-DRL(reproduced)** : A Knowledge Transfer based Multi-task Deep Reinforcement Learning framework (KTM-DRL) for continuous control. We reproduce the results in the MuJoCo continuous control task suite, more details can be find [here](https://github.com/TJU-DRL-LAB/transfer-and-multi-task-reinforcement-learning/tree/main/Single-agent%20Multi-task%20RL/KTM-DRL).
 
-See more [here](Transfer_RL/index.md)
+See more [here](libraries/Transfer_RL/index.md)
 
 # Model-based Reinforcement Learning (MBRL)
 Model-based reinforcement learning (MBRL) is widely seen as having the potential to be significantly more sample efficient than model-free RL. By learning a model of the environment, model-based methods learn with significantly lower sample complexity.The model of the environment is a representation model that explicitly contains knowledge about the environment or the task, and generally two types of models are included: a transition model or a dynamics model and the reward model. Once this model is modeled, it can be properly integrated into the interaction with the environment and the learning of strategies. 
@@ -187,3 +195,8 @@ With this repo and our research works, we want to draw the attention of RL commu
 We expect that our research thoughts and proposed topic for MBRL area can open up some new angles for future works on more advanced RL. **What' more, We want to cover as many interesting new directions as possible, and then divide it into the topic we listed above, to give you some inspiration and ideas for your RESEARCH.** Research in model-based RL has not been very standardized. It is fairly common for authors to experiment with self-designed environments, and there are several separate lines of research, which are sometimes closed-sourced or not reproducible. And for this, we have collected some of the mainstream MBRL algorithms and made some code-level optimizations. Bringing these algorithms together in a unified framework can save the researchers time in finding comparative baselines without the need to search around for implementations. Currently, we have implemented Dreamer, MBPO,BMPO, MuZero, PlaNet, SampledMuZero, CaDM and we plan to keep increasing this list in the future.  We will constantly update this repo to include new research made by TJU-DRL-Lab to ensure sufficient coverage and reliability. We are also looking forward to feedback in any form to promote more in-depth researches. See more [here](https://github.com/TJU-DRL-LAB/AI-Optimizer/tree/main/modelbased-rl).
 
 See more [here](MBRL/index.md).
+
+
+
+
+
