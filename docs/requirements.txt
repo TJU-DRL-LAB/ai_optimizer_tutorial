@@ -1,2 +1,2 @@
 mkdocs >= 1.2.2
-mkpdfs-mkdocs
+mkpdfs-mkdocs==52.5
