@@ -1,5 +1,5 @@
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
-
+# Taxnonomy
 * Taxonomy
     * [Multiagent Reinforcement learning](libraries/MARL/index.md)
     * [Self-supervised Representation Reinforcement Learning](libraries/SSRL/index.md)
@@ -7,10 +7,11 @@ AI-Optimizer now provides the following built-in libraries, and more libraries a
     * [Transfer and Multi-task Reinforcement Learning](libraries/Transfer_RL/index.md)
     * [Model-based Reinforcement Learning](libraries/MBRL/index.md)
 
-# Multiagent Reinforcement Learning (MARL)
+## Multiagent Reinforcement Learning (MARL)
+
 The Multiagent RL repo contains the released codes of representative research works of TJU-RL-Lab on Multiagent Reinforcement Learning (MARL). 
 
-## ❓ Problem to Solve
+### ❓ Problem to Solve
 
 ![Four representative applications of recent successes of MARL: unmanned aerial vehicles, game of Go, Poker games, and team-battle video games.](../images/representative_applications.png)
 
@@ -28,7 +29,7 @@ Our target is to design more efficient, more scalable, well-perfomred and much e
 
 
 
-## ⭐️ Core Directions
+### ⭐️ Core Directions
 
 We carry out our studies according to the challenges mentioned above. To solve the the curse of dimensionality issue, we design a series of scalable multiagent neural networks which could efficiently reduce the size of the search space by leveraging the [permutation invariance and permutation equivariance properties](https://arxiv.org/abs/2203.05285), explicitly taking the [action semantics](https://arxiv.org/abs/1907.11461) into consideration, etc. To better make a balance of the exploration–exploitation tradeoff, we propose Progressive Mutual Information Collaboration to achieve more efficient cooperative  exploration... An overall picture of the proposed methods is shown below.
 
@@ -37,7 +38,7 @@ We carry out our studies according to the challenges mentioned above. To solve t
 
 
 
-## 💦 Contribution
+### 💦 Contribution
 
 The main contribution of this repository is that:
 
@@ -55,12 +56,13 @@ The main contribution of this repository is that:
 See more [here](libraries/MARL/index.md).
 
 
-# Self-supervised Reinforcement Learning (SSRL)
+## Self-supervised Reinforcement Learning (SSRL)
+
 SSRL repo contains the released codes of representative research works of TJU-RL-Lab on Self-supervised Representation Learning for RL. 
 
 To the best of our knowledge, this is the **first** code repository for SSRL established by following **a systematic research taxonomy** and **a unified algorithmic framework**.
 
-## ❓ Problem to Solve
+### ❓ Problem to Solve
 Since the RL agent always _receives_, _processes_, and _delivers_ all kinds of data in the learning process (i.e., the typical Agent-Environment Interface), 
 how to **properly represent such "data"** is naturally the key point to the effectiveness and efficiency of RL.
 
@@ -69,7 +71,7 @@ In this branch, we focus on **three key questions** as follows:
 - **How can we obtain or realize such good representations? (Methodology)**
 - **How can we making use of good representations to improve RL? (Downstream Learning Tasks & Application)**
 
-## ⭐️ Core Idea
+### ⭐️ Core Idea
 Taking **Self-supervised Learning** (SSL) as our major paradigm for representation learning, we carry out our studies from four perspectives: 
 - **State Representation**,
 - **Action Representation**,
@@ -96,7 +98,7 @@ Finally, this promotes the deployment and landing of RL in real-world applicatio
 
 See more [here](libraries/SSRL/index.md).
 
-## 💦 Contribution
+### 💦 Contribution
 
 With this repo and our research works, we want to draw the attention of RL community to studies on Self-supervised Representation Learning for RL.
 - For people who are insterested in RL, our introduction in this repo and our [blogs](https://zhuanlan.zhihu.com/p/413321572) can be a preliminary tutorial.
@@ -106,15 +108,18 @@ With this repo and our research works, we want to draw the attention of RL commu
 We are also looking forward to feedback in any form to promote more in-depth researches.
 
 
-# Offline-rl-algorithms (Offrl)
-## ❓ Problem to Solve
+## Offline-rl-algorithms (Offrl)
+### ❓ Problem to Solve
 Current deep RL methods still typically rely on active data collection to succeed, hindering their application in the real world especially when the data collection is dangerous or expensive.  Offline RL (also known as batch RL) is a data-driven RL paradigm concerned with learning exclusively from static datasets of previously-collected experiences. In this setting, a behavior policy interacts with the environment to collect a set of experiences, which can later be used to learn a policy without further interaction. This paradigm can be extremely valuable in settings where online interaction is impractical. However, current offline rl methods are restricted to three challenges: 
 
 - Low upper limit of algorithm: The quality of offline data determines the performance of offline reinforcement learning algorithms. How to expand low-quality offline data without additional interaction to increase the learning upper limit of offline reinforcement learning algorithms?
 - Poor algorithm effect: Existing off-policy/offline algorithm trains on the offline data distribution. When interacting with the environment, the distribution of the accessed state-action may change compared with the offline data (Distributional Shift). In this situation, the Q value of the <state, action> pair is easy to be overestimated, which affects the overall performance. How to characterize the data outside the offline data distribution (Out Of Distribution, OOD) to avoid overestimation?
 - Difficulty in applying the algorithm: Due to the limited quality of the dataset, the learned strategy cannot be directly deployed in the production environment, and further online learning is required. How to design data sampling in the online training phase to avoid the sudden drop in the initial performance of the strategy due to the redundant data generated by the distribution change, and quickly converge to the optimal solution in a limited number of interactions?
 
-## 💦 Contribution
+
+### ⭐  Core Idea
+![Ecology of Offline RL](../images/ORL_framework.png)
+### 💦 Contribution
 This repository contains the codes of representative benchmarks and algorithms on the topic of Offline Reinforcement Learning. The repository is developed based on d3rlpy(https://github.com/takuseno/d3rlpy) following MIT license to shed lights on the research on the above three challenges. While inheriting its advantages, the additional features include (or will be included):
 
 - A unified algorithm framework with rich and fair comparisons bewteen different algorithms:
@@ -131,24 +136,24 @@ This repository contains the codes of representative benchmarks and algorithms o
     - Wandb
 
 
-![Ecology of Offline RL](../images/ORL_framework.png)
+
 
 See more [here](libraries/Offline_RL/index.md).
 
-# Transfer and Multi-task Reinforcement Learning
+## Transfer and Multi-task Reinforcement Learning
 Recently, Deep Reinforcement Learning (DRL) has achieved a lot of success in human-level control problems, such as video games, robot control, autonomous vehicles, smart grids and so on. However, DRL is still faced with the **sample-inefficiency problem** especially when the state-action space becomes large, which makes it difficult to learn from scratch. This means the agent has to use a large number of samples to learn a good policy. Furthermore, the sample-inefficiency problem is much more severe in Multiagent Reinforcement Learning (MARL) due to the exponential increase of the state-action space.  
 
-## ❓ Problem to Solve
+### ❓ Problem to Solve
 
 **Sample-inefficiency problem**: The main challenge that transfer and multi-task RL aims to solve is the sample-inefficiency problem. This problem forces the agent to collect a huge amount of training data to learn the optimal policy. For example, the Rainbow DQN requires around 18 million frames of training data to exceed the average level of human players, which is equivalent to 60 hours of games played by human players. However, human players can usually learn an Atari game within a few minutes and can reach the average level of the same player after one hour of training. 
 
-## ⭐️ Core Idea
+### ⭐️ Core Idea
 
 - **Transfer RL** which leverages prior knowledge from previously related tasks to accelerate the learning process of RL, has become one popular research direction to significantly improve sample efficiency of DRL. 
 
 - **Multi-task RL**, in which one network learns policies for multiple tasks, has emerged as another promising direction with fast inference and good performance.
 
-## 💦 Contribution
+### 💦 Contribution
 
 This repository contains the released codes of representative benchmarks and algorithms of TJU-RL-Lab on the topic of Transfer and Multi-task Reinforcement Learning, including the single-agent domain and multi-agent domain, addressing the sample-inefficiency problem in different ways.
 
@@ -164,27 +169,27 @@ In this repo, we provide specific solutions of our lab including:
 
 See more [here](libraries/Transfer_RL/index.md)
 
-# Model-based Reinforcement Learning (MBRL)
+## Model-based Reinforcement Learning (MBRL)
 Model-based reinforcement learning (MBRL) is widely seen as having the potential to be significantly more sample efficient than model-free RL. By learning a model of the environment, model-based methods learn with significantly lower sample complexity.The model of the environment is a representation model that explicitly contains knowledge about the environment or the task, and generally two types of models are included: a transition model or a dynamics model and the reward model. Once this model is modeled, it can be properly integrated into the interaction with the environment and the learning of strategies. 
 
-## ❓Problems to Solve
+### ❓Problems to Solve
 
 The current classifications of the mainstream algorithms in the modern Model-Based RL area are orthogonal, which means some algorithms can be grouped into different categories according to different perspectives. In this branch, we focus on two key questions  :`How to Learn a Model` and `How to Utilize a Model`.
 
 - `How to Learn a Model` mainly focuses on how to build the environment model. 
 - `How to Utilize a Model` cares about how to utilize the learned model. 
 
-## ⭐️ Core Directions
+### ⭐️ Core Directions
 
 Ignoring the differences in specific methods, the purpose of MBRL algorithms can be more finely divided into four directions as follows: `Reduce Model Error`、`Faster Planning`、` Higher Tolerance to Model Error` 、`Scalability to Harder Problems`.  For the problem of `How to Learn a Model`, we can study on reducing model error to learn a more accurate world model or learning a world model with higher tolerance to model error. For the problem of `How to Utilize a Model`, we can study on faster planning with a learned model or the scalability of the learned model to harder problems.   
 
 ![](../images/MBRL_framework.png)
-## 💦 Contributions
-### Why MBRL ?
+### 💦 Contributions
+#### Why MBRL ?
 
 Model-based reinforcement learning (MBRL) enjoys several benefits, such as data-efficiency and planning, by learning a model of the environments dynamics. The model of the environment is a representation model that explicitly contains knowledge about the environment or the task, and generally two types of models are included: a transition model or a dynamics model and the reward model. Once this model is modeled, it can be properly integrated into the interaction with the environment and the learning of strategies. 
 
-### Why Our Lib?
+#### Why Our Lib?
 
 With this repo and our research works, we want to draw the attention of RL community to studies on Model Based RL.
 
