@@ -21,4 +21,5 @@ plugins:
     - mkpdfs:
         company: TJU DRL Lab.
         author: Yi Ma
-        toc_title: ToC
+        toc_title: AI Optimizer
+
