@@ -232,7 +232,7 @@ latex_elements = {
 #'figure_align': 'htbp',
 }
 
-pdf_toc_depth = 10
+
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -269,7 +269,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'AI Optimizer', u'AI Optimizer Documentation',
-     [author], 1)
+     [author], 10)
 ]
 
 # If true, show URL addresses after external links.
