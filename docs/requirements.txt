@@ -1,2 +1,3 @@
 mkdocs >= 1.2.2
-mkpdfs-mkdocs==52.5
+WeasyPrint==52.5
+mkpdfs-mkdocs
