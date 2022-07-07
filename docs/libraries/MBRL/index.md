@@ -1,6 +1,6 @@
 # MBRL-Lib
 
-![pic](./images/pic.jpeg)
+![pic](images/pic.jpeg)
 This repo contains a unified opensource code implementation for the Model-Based  Reinforcement Learning methods.(@TJU). MBRL-Lib provides implementations of popular MBRL algorithms as examples of how to use this library. You can find them in the MBRL-Lib folder. We have collected some of the mainstream MBRL algorithms and made some code-level optimizations. Bringing these algorithms together in a unified framework can save the researchers time in finding comparative baselines without the need to search around for implementations. Currently, we have implemented Dreamer, MBPO,BMPO, MuZero, PlaNet, SampledMuZero, CaDM and we plan to keep increasing this list in the future.  We will constantly update this repo to include new research made by TJU-DRL-Lab to ensure sufficient coverage and reliability. **We hope in the future to present one of the most comprehensive Model-Based library so far , which covered most mainstream algorithms in Model-Based RL area.** What' more, We want to cover as many interesting new directions as possible, and then divide it into the topic we listed above, to give you some inspiration and ideas for your RESEARCH. This repo will be constantly updated to include new researches made by TJU-RL-Lab. (The development of this repo is in progress at present.)
 
 ## 
@@ -9,7 +9,7 @@ This repo contains a unified opensource code implementation for the Model-Based 
 
 Reinforcement learning algorithms can be divided into two main categories: **the first category is `Model Free` methods, which are able to learn a value function or a strategy function directly by interacting with the environment without modeling the environment; the second category is `Model Based` methods, which need to model the environment by interacting with it and then use the model to make action planning or strategy selection**. The model free algorithm has achieved great results in many experimental scenarios and game environments due to its simple implementation and high asymptotic performance, but the sampling efficiency of the model free method is extremely low, resulting in a large number of interactions with the environment. However, the model free class of methods is extremely inefficient in terms of sampling efficiency and requires a lot of interaction with the environment. In contrast, the model-based algorithm models the environment and fits the dynamics model of the environment **with high sampling efficiency**.
 
-![image-20220316113418281](./images/image-20220316113418281.png)
+![image-20220316113418281](images/image-20220316113418281.png)
 
 The model of the environment is a representation model that explicitly contains knowledge about the environment or the task, and generally two types of models are included: a transition model or a dynamics model and the reward model. Once this model is modeled, it can be properly integrated into the interaction with the environment and the learning of strategies, as shown in the above figure. 
 ### Problems to Solve
@@ -31,7 +31,7 @@ There are many other classifications and we can list some of them here. From the
 
 The current classifications of the mainstream algorithms in the modern Model-Based RL area are orthogonal, which means some algorithms can be grouped into different categories according to different perspectives. It’s quite hard to draw an accurate taxonomy of algorithms in the Model-Based RL area.  **So we think it would be more appropriate to give the algorithm to a specific topic rather than a simple classification.** Ignoring the differences in specific methods, the purpose of MBRL algorithms can be more finely divided into four directions as follows: `Reduce Model Error`、`Faster Planning`、` Higher Tolerance to Model Error` 、`Scalability to Harder Problems`.  For the problem of `How to Learn a Model`, we can study reducing model error to learn a more accurate world model or learning a world model with higher tolerance to model error. For the problem of `How to Utilize a Model`, we can study faster planning with a learned model or the scalability of the learned model to harder problems.  
 
-![](./images/MBRL_framework.png)
+![](images/MBRL_framework.png)
 
 ### 💦Key Features
 

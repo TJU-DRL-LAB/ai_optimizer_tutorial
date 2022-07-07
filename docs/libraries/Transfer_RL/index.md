@@ -8,7 +8,7 @@ This repository contains the released codes of representative benchmarks and alg
 
 This repository will be constantly updated to include new research works.  
 
-![](./images/overview.png)
+![](images/overview.png)
 
 ## Challenges 
 

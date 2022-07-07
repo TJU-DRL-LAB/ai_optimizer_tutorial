@@ -1,4 +1,4 @@
-![](./images/representative_applications.png)
+![](images/representative_applications.png)
 
 
 # Multiagent RLlib: A unified official code releasement of MARL researches made by TJU-RL-Lab
@@ -23,7 +23,7 @@ The main contribution of this repository is that:
 
   - For example, the API-QMIX, API-VDN, API-MAPPO and API-MADDPG algorithms proposed in our paper ["API: Boosting Multi-Agent Reinforcement Learning via Agent-Permutation-Invariant Networks"](https://arxiv.org/pdf/2203.05285.pdf) achieve State-Of-The-Art Performance in the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) and [Multi-agent Particle Environment](https://github.com/openai/multiagent-particle-envs) benchmarks, which achieves **100% win-rates in almost all hard and super-hard SMAC scenarios (never achieved before)**.
     - :rocket: State-Of-The-Art Performance of our API-QMIX and API-VDN (named HPN-QMIX and HPN-VDN in the figure) in SMAC.
-    ![](./images/SMAC-performance.png)
+    ![](images/SMAC-performance.png)
   - **We strongly recommend** that practitioners **try and use our API-Network solution FIRST** when solving practical MARL problems (because it is very easy to use and does work very well) !  We hope our works can promote the deployment and landing of MARL in more real-world applications.
 
 
@@ -31,14 +31,14 @@ The main contribution of this repository is that:
 
 ## 2. Challenges of MARL
 
-![](./images/markov_game.png)
+![](images/markov_game.png)
 Multiagent systems consist of multiple agents acting and learning in a shared environment. Many real-world decision making problems can be modeled as multiagent systems, such as playing the game of Go, playing real-time strategy games, robotic control, playing card games, autonomous vehicles, resource allocation problems. Despite the recent success of deep RL in single-agent environments, there are additional challenges in multiagent RL:
 
 - **The curse of dimensionality (scalability) issue**: In MARL, the joint state-action space grows exponentially as the number of agents increases. This is also referred to as the combinatorial nature of MARL. Thus, MARL algorithms typically suffer from **poor sample-efficiency** and **poor scalability** due to the exponential grows of the dimensionality. The key to solve this problem is to reduce the size of the state-action space properly. 
 
 - **Non-stationarity** (especially for independent learners): In Markov games, the state transition function and the reward function of each agent depend on the actions of all agents. During the training of multiple agents, the policy of each agent changes through time. As a result, each agents’ perceived transition and reward functions change as well, which causes the environment faced by each individual agent to be non-stationary and breaks the Markov assumption that governs the convergence of most single-agent RL algorithms. In the worst case, each agent can enter an endless cycle of adapting to other agents. 
 
-![](./images/non-stationary.png)
+![](images/non-stationary.png)
 
 - **Multiagent credit assignment problem**: for cooperative Markov games, all agents could only receive a shared team reward. However, in most cases, only a subset of agents contribute to the reward, and we need to identify which agents contribute more (less) and reward (punish) them accordingly. The target is then guide the less contributed agents to contribute more and thus the team reward could be further improved.
 
@@ -54,7 +54,7 @@ Multiagent systems consist of multiple agents acting and learning in a shared en
 
 To solve the above problems, we propose a series of algorithms from different point of views. A big picture is shown bellow. 
 
-![](./images/our-work.png)
+![](images/our-work.png)
 
 We briefly give an introduction about the most recent works here. Details about these methods can be found in the sub-directories.
 

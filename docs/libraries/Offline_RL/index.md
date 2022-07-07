@@ -42,7 +42,7 @@ This repository contains the codes of representative benchmarks and algorithms o
      - Datasets obtained using representation learning (and corresponding methods) (DDL: 2022/09/30)
    - **More easy-to-use log systems support**: 
      - Wandb (DDL: 2022/04/30)
-![Ecology of Offline RL](./images/ORL_framework.png)
+![Ecology of Offline RL](images/ORL_framework.png)
 
 
 an overall view of research works in this repo:

@@ -2,7 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b1ddbe-d18a-4e88-9a1e-5ce660cb450d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ai_optimizer_tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ai_optimizer_tutorial.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/make.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/_static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/AI_Optimizer_overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/AI_Optimizer_overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/Ecology_of_SSRL.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/Ecology_of_SSRL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/MBRL_framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/MBRL_framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/ORL_framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/ORL_framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/multiagent-work.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/multiagent-work.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/images/representative_applications.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/images/representative_applications.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/images/SMAC-performance.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/images/SMAC-performance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/images/markov_game.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/images/markov_game.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/images/non-stationary.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/images/non-stationary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/images/our-work.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/images/our-work.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/images/representative_applications.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/images/representative_applications.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MARL/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MBRL/images/MBRL_framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MBRL/images/MBRL_framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MBRL/images/image-20220316113418281.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MBRL/images/image-20220316113418281.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MBRL/images/pic.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MBRL/images/pic.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MBRL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/MBRL/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Offline_RL/images/ORL_framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/images/ORL_framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Offline_RL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Action_Representation/HyAR/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Action_Representation/HyAR/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Action_Representation/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Action_Representation/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Environment_Representation/PAnDR/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Environment_Representation/PAnDR/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Environment_Representation/ccm/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Environment_Representation/ccm/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Environment_Representation/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Environment_Representation/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Other_Representations/VDFP/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Other_Representations/VDFP/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Other_Representations/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Other_Representations/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Policy_Representation/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_Policy_Representation/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_State_Representation/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/RL_with_State_Representation/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/images/Ecology_of_SSRL.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/images/Ecology_of_SSRL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/images/alg_framework.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/images/alg_framework.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/images/hyar_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/images/hyar_results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/images/pandr_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/images/pandr_results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/images/pevfa_results.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/images/pevfa_results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/SSRL/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Transfer_RL/images/overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Transfer_RL/images/overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Transfer_RL/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Transfer_RL/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/libraries/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,94 +66,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
+        <entry file="file://$PROJECT_DIR$/docs/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="17" selection-start-line="17" selection-end-line="17" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/source/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="480">
-                <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2628" />
+            <state relative-caret-position="100">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/libraries/Transfer_RL/index.md">
+        <entry file="file://$PROJECT_DIR$/docs/license.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <first_editor relative-caret-position="60">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/libraries/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-3082">
-                <caret line="1" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/libraries/SSRL/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="267">
-                <caret line="144" column="52" selection-start-line="144" selection-start-column="52" selection-end-line="144" selection-end-column="52" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/libraries/MBRL/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="360">
-                <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/make.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31" />
           </provider>
         </entry>
       </file>
@@ -121,6 +115,7 @@
       <find>:white_check_mark:</find>
       <find>master_doc</find>
       <find>myst_parser</find>
+      <find>aiop</find>
     </findStrings>
     <replaceStrings>
       <replace>✅</replace>
@@ -148,6 +143,10 @@
         <option value="$PROJECT_DIR$/docs/source/libraries/MBRL/index.md" />
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
         <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/testdocs/docs/license.md" />
+        <option value="$PROJECT_DIR$/testdocs/docs/index.md" />
+        <option value="$PROJECT_DIR$/testdocs/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
       </list>
     </option>
   </component>
@@ -176,33 +175,6 @@
             </path>
             <path>
               <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="_sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -215,25 +187,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/source/libraries/Offline_RL/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testdocs/docs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Working\ai_optimizer_tutorial" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\build\html" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_Other_Representations" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Transfer_RL" />
-      <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Offline_RL" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Working\ai_optimizer_tutorial\testdocs\docs" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Offline_RL\images" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_State_Representation" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_Policy_Representation" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_Other_Representations" />
-      <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_Environment_Representation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,18 +234,18 @@
       <workItem from="1655977372440" duration="599000" />
       <workItem from="1655978574370" duration="217000" />
       <workItem from="1656055395374" duration="51000" />
-      <workItem from="1657177164527" duration="12645000" />
+      <workItem from="1657177164527" duration="13999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17994000" />
+    <option name="totallyTimeSpent" value="19348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +259,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.45218295" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -493,7 +465,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="360">
-            <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            <caret line="98" selection-start-line="98" selection-end-line="98" />
           </first_editor>
           <second_editor />
         </state>
@@ -502,20 +474,47 @@
     <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="480">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="214" column="25" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/license.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>

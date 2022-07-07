@@ -1,0 +1,17 @@
+
+site_name: AI Optimizer Docs
+site_url: https://ai-optimizer-tutorial.readthedocs.io/
+nav:
+    - Homepage:
+        - 'Introduction': 'index.md'
+    - Taxonomy:
+        - 'Multiagent Reinforcement learning': 'libraries/MARL/index.md'
+        - 'Self-supervised Representation Reinforcement Learning': 'libraries/SSRL/index.md'
+        - 'Offline Reinforcement Learning': 'libraries/Offline_RL/index.md'
+        - 'Transfer and Multi-task Reinforcement Learning': 'libraries/Transfer_RL/index.md'
+        - 'Model-based Reinforcement Learning': 'libraries/MBRL/index.md'
+
+    - Contributing:
+        - 'License': 'license.md'
+
+theme: readthedocs
