@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b1ddbe-d18a-4e88-9a1e-5ce660cb450d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Action_Representation/HyAR/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Environment_Representation/PAnDR/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Environment_Representation/ccm/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Other_Representations/VDFP/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MARL/content.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/MBRL/content.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/MBRL/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Offline_RL/content.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/Offline_RL/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/SSRL/content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/source/libraries/Transfer_RL/content.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/Transfer_RL/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/source/libraries/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/libraries/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,24 +43,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/source/libraries/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="149" selection-start-line="149" selection-end-line="149" selection-end-column="27" />
+              <first_editor relative-caret-position="678">
+                <caret line="190" column="31" lean-forward="true" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/libraries/MARL/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-100">
-                <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <first_editor relative-caret-position="200">
+                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -116,11 +103,11 @@
         <option value="$PROJECT_DIR$/docs/source/libraries/MBRL.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/MARL.md" />
         <option value="$PROJECT_DIR$/docs/source/conf.py" />
-        <option value="$PROJECT_DIR$/docs/source/libraries/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/SSRL/content.md" />
         <option value="$PROJECT_DIR$/docs/source/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/SSRL/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/MARL/index.md" />
+        <option value="$PROJECT_DIR$/docs/source/libraries/index.md" />
       </list>
     </option>
   </component>
@@ -159,46 +146,6 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="MARL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="MBRL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Offline_RL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="SSRL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ai_optimizer_tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ai_optimizer_tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Transfer_RL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,18 +204,18 @@
       <workItem from="1655977372440" duration="599000" />
       <workItem from="1655978574370" duration="217000" />
       <workItem from="1656055395374" duration="51000" />
-      <workItem from="1657177164527" duration="2784000" />
+      <workItem from="1657177164527" duration="3184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8133000" />
+    <option name="totallyTimeSpent" value="8533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14817466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23407301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,16 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/libraries/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="149" selection-start-line="149" selection-end-line="149" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -409,8 +346,18 @@
     <entry file="file://$PROJECT_DIR$/docs/source/libraries/MARL/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-100">
-            <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <first_editor relative-caret-position="200">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/libraries/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="678">
+            <caret line="190" column="31" lean-forward="true" selection-start-line="190" selection-start-column="31" selection-end-line="190" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>

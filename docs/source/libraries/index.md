@@ -47,7 +47,7 @@ The main contribution of this repository is that:
   - For example, the API-QMIX, API-VDN, API-MAPPO and API-MADDPG algorithms proposed in our paper ["API: Boosting Multi-Agent Reinforcement Learning via Agent-Permutation-Invariant Networks"](https://arxiv.org/pdf/2203.05285.pdf) achieve State-Of-The-Art Performance in the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) and [Multi-agent Particle Environment](https://github.com/openai/multiagent-particle-envs) benchmarks, which achieves **100% win-rates in almost all hard and super-hard SMAC scenarios (never achieved before)**.
   - **We strongly recommend** that practitioners **try and use our API-Network solution FIRST** when solving practical MARL problems (because it is very easy to use and does work very well) !  We hope our works can promote the deployment and landing of MARL in more real-world applications.
 
-  See more [here](https://github.com/TJU-DRL-LAB/AI-Optimizer/tree/main/multiagent-rl).
+  See more [here](MARL/index.md).
 
 
 # Self-supervised Reinforcement Learning (SSRL)
@@ -89,7 +89,7 @@ Finally, this promotes the deployment and landing of RL in real-world applicatio
 
 ![](../images/Ecology_of_SSRL.png)
 
-See more [here](https://github.com/TJU-DRL-LAB/self-supervised-rl).
+See more [here](SSRL/index.md).
 
 ## 💦 Contribution
 
@@ -125,10 +125,9 @@ This repository contains the codes of representative benchmarks and algorithms o
    - Wandb
 
 
-
-
 ![Ecology of Offline RL](../images/ORL_framework.png)
 
+See more [here](Offline_RL/index.md).
 
 # Transfer and Multi-task Reinforcement Learning
 Recently, Deep Reinforcement Learning (DRL) has achieved a lot of success in human-level control problems, such as video games, robot control, autonomous vehicles, smart grids and so on. However, DRL is still faced with the **sample-inefficiency problem** especially when the state-action space becomes large, which makes it difficult to learn from scratch. This means the agent has to use a large number of samples to learn a good policy. Furthermore, the sample-inefficiency problem is much more severe in Multiagent Reinforcement Learning (MARL) due to the exponential increase of the state-action space.  
@@ -157,8 +156,7 @@ In this repo, we provide specific solutions of our lab including:
 
 * **KTM-DRL(reproduced)** : A Knowledge Transfer based Multi-task Deep Reinforcement Learning framework (KTM-DRL) for continuous control. We reproduce the results in the MuJoCo continuous control task suite, more details can be find [here](https://github.com/TJU-DRL-LAB/transfer-and-multi-task-reinforcement-learning/tree/main/Single-agent%20Multi-task%20RL/KTM-DRL).
 
-See more [here](https://github.com/TJU-DRL-LAB/transfer-and-multi-task-reinforcement-learning).
-
+See more [here](Transfer_RL/index.md)
 
 # Model-based Reinforcement Learning (MBRL)
 Model-based reinforcement learning (MBRL) is widely seen as having the potential to be significantly more sample efficient than model-free RL. By learning a model of the environment, model-based methods learn with significantly lower sample complexity.The model of the environment is a representation model that explicitly contains knowledge about the environment or the task, and generally two types of models are included: a transition model or a dynamics model and the reward model. Once this model is modeled, it can be properly integrated into the interaction with the environment and the learning of strategies. 
@@ -189,3 +187,5 @@ With this repo and our research works, we want to draw the attention of RL commu
 - For Researchers in model-based RL, we collect several separate lines of research, which are sometimes closed-sourced or not reproducible and make some code-level optimizations for the convinience to find comparative baselines without the need to search around for implementations.
 
 We expect that our research thoughts and proposed topic for MBRL area can open up some new angles for future works on more advanced RL. **What' more, We want to cover as many interesting new directions as possible, and then divide it into the topic we listed above, to give you some inspiration and ideas for your RESEARCH.** Research in model-based RL has not been very standardized. It is fairly common for authors to experiment with self-designed environments, and there are several separate lines of research, which are sometimes closed-sourced or not reproducible. And for this, we have collected some of the mainstream MBRL algorithms and made some code-level optimizations. Bringing these algorithms together in a unified framework can save the researchers time in finding comparative baselines without the need to search around for implementations. Currently, we have implemented Dreamer, MBPO,BMPO, MuZero, PlaNet, SampledMuZero, CaDM and we plan to keep increasing this list in the future.  We will constantly update this repo to include new research made by TJU-DRL-Lab to ensure sufficient coverage and reliability. We are also looking forward to feedback in any form to promote more in-depth researches. See more [here](https://github.com/TJU-DRL-LAB/AI-Optimizer/tree/main/modelbased-rl).
+
+See more [here](MBRL/index.md).
