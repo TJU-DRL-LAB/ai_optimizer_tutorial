@@ -1,10 +1,6 @@
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
-* Taxonomy
-  * [Multiagent Reinforcement learning](MARL/content.md)
-  * [Self-supervised Representation Reinforcement Learning](SSRL/content.md)
-  * [Offline Reinforcement Learning](Offline_RL/content.md)
-  * [Transfer and Multi-task Reinforcement Learning](Transfer_RL/content.md)
-  * [Model-based Reinforcement Learning](MBRL/content.md)
+
+[toc]
 
 # Multiagent Reinforcement Learning (MARL)
 The Multiagent RL repo contains the released codes of representative research works of TJU-RL-Lab on Multiagent Reinforcement Learning (MARL). 
