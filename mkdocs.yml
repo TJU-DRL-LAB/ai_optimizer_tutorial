@@ -16,10 +16,6 @@ nav:
         - 'License': 'license.md'
 
 theme: readthedocs
-#plugins:
-#    - search
-#    - mkpdfs:
-#        company: TJU DRL Lab.
-#        author: Yi Ma
-#        toc_title: AI Optimizer
-
+plugins:
+    - search
+    - pdf-export
