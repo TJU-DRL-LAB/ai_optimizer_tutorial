@@ -217,19 +217,36 @@ htmlhelp_basename = 'AIOptimizerdoc'
 # -- Options for LaTeX output ---------------------------------------------
 # -- Options for PDF output
 latex_engine = 'xelatex'
-latex_use_xindy = False
+# latex_use_xindy = False
+# latex_elements = {
+# # The paper size ('letterpaper' or 'a4paper').
+# #'papersize': 'letterpaper',
+#
+# # The font size ('10pt', '11pt' or '12pt').
+# #'pointsize': '10pt',
+#
+# # Additional stuff for the LaTeX preamble.
+# 'preamble': '\\usepackage[UTF8]{ctex}\n',
+#
+# # Latex figure (float) alignment
+# #'figure_align': 'htbp',
+# }
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
-
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-
-# Additional stuff for the LaTeX preamble.
-'preamble': '\\usepackage[UTF8]{ctex}\n',
-
-# Latex figure (float) alignment
-#'figure_align': 'htbp',
+    'papersize': 'a4paper',
+    'pointsize': '11pt',
+    'preamble': r'''
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont=STZhongsong, ItalicFont=STKaiti]{STSong}
+\setCJKsansfont[BoldFont=STHeiti]{STXihei}
+\setCJKmonofont{STFangsong}
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\parindent 2em
+\definecolor{VerbatimColor}{rgb}{0.95,0.95,0.95}
+\setcounter{tocdepth}{3}
+\renewcommand\familydefault{\ttdefault}
+\renewcommand\CJKfamilydefault{\CJKrmdefault}
+'''
 }
 
 
@@ -239,7 +256,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   (master_doc, 'AI Optimizer.tex', u'AI Optimizer Documentation',
-   u'TJU DRL LAB', 'manual'),
+   u'TJU DRL LAB', 'howto', True),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
