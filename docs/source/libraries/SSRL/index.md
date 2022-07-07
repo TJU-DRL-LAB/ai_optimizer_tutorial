@@ -139,11 +139,11 @@ Note that this repo is a collection of multiple research branches (according to 
 Environments and code frameworks may differ among different branches. Thus, please follow the installation guidance provided in the specific branch you are insterested in.
 
 
-## 💦 An Overall View of Research Works in This Repo  
+an overall view of research works in this repo:
 
 
 | Category | Method | Is Contained | Author | Publication | Link |
-| :----- | :----- | :--- | :----- | :----- | :----- |
+| :----- | :----- | :--- | :----- | :----- | ----- |
 | Action | [HyAR](RL_with_Action_Representation/HyAR/index.md) |✅ |  Boyan Li | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
 | Policy | [PPO-PeVFA](RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md) | ✅  | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
 | Env&task | [CCM](RL_with_Environment_Representation/ccm/index.md) | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
