@@ -144,11 +144,11 @@ an overall view of research works in this repo:
 
 | Category | Method | Is Contained | Author | Publication | Link |
 | :----- | :----- | :--- | :----- | :----- | ----- |
-| Action | [HyAR](RL_with_Action_Representation/HyAR/index.md) |✅ |  Boyan Li | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
-| Policy | [PPO-PeVFA](RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md) | ✅  | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
-| Env&task | [CCM](RL_with_Environment_Representation/ccm/index.md) | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| Env&task | [PAnDR](RL_with_Environment_Representation/PAnDR/index.md) |✅  |Tong Sang| IJCAI 2022 | https://arxiv.org/abs/2204.02877 |
-| Other | [VDFP](RL_with_Other_Representations/VDFP/index.md) |✅  |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
+| Action | [HyAR](RL_with_Action_Representation/HyAR/index.md) | |  Boyan Li | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
+| Policy | [PPO-PeVFA](RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA/index.md) |   | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
+| Env&task | [CCM](RL_with_Environment_Representation/ccm/index.md) |  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
+| Env&task | [PAnDR](RL_with_Environment_Representation/PAnDR/index.md) |  |Tong Sang| IJCAI 2022 | https://arxiv.org/abs/2204.02877 |
+| Other | [VDFP](RL_with_Other_Representations/VDFP/index.md) |  |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
 
 
 ## TODO
