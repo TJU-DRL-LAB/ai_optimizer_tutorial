@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b1ddbe-d18a-4e88-9a1e-5ce660cb450d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/build/html/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/build/html/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +14,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="257" column="13" selection-start-line="257" selection-start-column="3" selection-end-line="257" selection-end-column="13" />
+            <state relative-caret-position="381">
+              <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/source/index.md">
+        <entry file="file://$PROJECT_DIR$/docs/build/html/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="160">
-                <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="115" />
+                <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="78" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
@@ -151,8 +152,8 @@
         <option value="$PROJECT_DIR$/docs/source/libraries/Offline_RL/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/Transfer_RL/index.md" />
         <option value="$PROJECT_DIR$/docs/source/libraries/MBRL/index.md" />
-        <option value="$PROJECT_DIR$/docs/source/conf.py" />
         <option value="$PROJECT_DIR$/docs/source/index.rst" />
+        <option value="$PROJECT_DIR$/docs/source/conf.py" />
       </list>
     </option>
   </component>
@@ -219,11 +220,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Working\ai_optimizer_tutorial\docs\build\html" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL\RL_with_Other_Representations" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Transfer_RL" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Offline_RL" />
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\SSRL" />
-      <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\MBRL" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Working\ai_optimizer_tutorial\docs\source\libraries\Offline_RL\images" />
@@ -259,12 +260,12 @@
       <workItem from="1655977372440" duration="599000" />
       <workItem from="1655978574370" duration="217000" />
       <workItem from="1656055395374" duration="51000" />
-      <workItem from="1657177164527" duration="11612000" />
+      <workItem from="1657177164527" duration="12032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16961000" />
+    <option name="totallyTimeSpent" value="17381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -496,18 +497,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="257" column="13" selection-start-line="257" selection-start-column="3" selection-end-line="257" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/source/index.md">
+    <entry file="file://$PROJECT_DIR$/docs/build/html/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
-            <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="115" />
+            <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="78" />
           </first_editor>
           <second_editor />
         </state>
@@ -515,6 +509,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/source/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

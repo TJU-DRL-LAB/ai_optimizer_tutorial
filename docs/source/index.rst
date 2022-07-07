@@ -30,24 +30,20 @@ AI-Optimizer now provides the following built-in libraries, and more libraries a
    :maxdepth: 10
    :caption: Offline Reinforcement Learning
 
-   reproductions
-   license
+   libraries/Offline_RL/index
 
 .. toctree::
    :maxdepth: 10
-   :caption: Offline Reinforcement Learning
+   :caption: Transfer and Multi-task Reinforcement Learning
 
-   reproductions
-   license
+   libraries/Transfer_RL/index
 
+.. toctree::
+   :maxdepth: 10
+   :caption: Model-based Reinforcement Learning
 
-AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
-* [Taxonomy](libraries/index.md)
-  * [Multiagent Reinforcement learning](libraries/MARL/index.md)
-  * [Self-supervised Representation Reinforcement Learning](libraries/SSRL/index.md)
-  * [Offline Reinforcement Learning](libraries/Offline_RL/index.md)
-  * [Transfer and Multi-task Reinforcement Learning](libraries/Transfer_RL/index.md)
-  * [Model-based Reinforcement Learning](libraries/MBRL/index.md)
+   libraries/MBRL/index
+
 
 Indices and tables
 ==================
