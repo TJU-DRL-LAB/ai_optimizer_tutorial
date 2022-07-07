@@ -17,4 +17,8 @@ nav:
 
 theme: readthedocs
 plugins:
-    - with-pdf
+    - search
+    - mkpdfs:
+        company: TJU DRL Lab.
+        author: Yi Ma
+        toc_title: ToC
