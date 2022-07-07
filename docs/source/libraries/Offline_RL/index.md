@@ -49,7 +49,7 @@ This repository contains the codes of representative benchmarks and algorithms o
 
 
 | Category | Method and Code Link                                                      | Is Contained | Is ReadME Prepared | Publication | Paper Link |
-|----------|--------------------------------------------------------------|--------------|--------------------|-------------|------|
+| :----------| :-------------------------------------------------------------| :-------------| :-------------------| :------------| :-----|
 | IL       | BC                                                           | ✅            | ✅                  |             |      |
 | PC       | [Batch Constrained Q-learning (BCQ)](./BCQ) | ✅            | ✅                  | ICML 2019 |  [Off-Policy Deep Reinforcement Learning without Exploration](https://arxiv.org/pdf/1812.02900.pdf)    |
 | PC       | [Bootstrapping Error Accumulation Reduction (BEAR)](./BEAR)            | ✅            | ✅                  | NIPS 2019  |  [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://proceedings.neurips.cc/paper/2019/file/c2073ffa77b5357a498057413bb09d3a-Paper.pdf)    |
