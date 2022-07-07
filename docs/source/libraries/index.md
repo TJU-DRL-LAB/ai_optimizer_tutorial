@@ -1,7 +1,5 @@
 AI-Optimizer now provides the following built-in libraries, and more libraries and implementations are coming soon.
 
-[toc]
-
 # Multiagent Reinforcement Learning (MARL)
 The Multiagent RL repo contains the released codes of representative research works of TJU-RL-Lab on Multiagent Reinforcement Learning (MARL). 
 
@@ -47,7 +45,7 @@ The main contribution of this repository is that:
   - For example, the API-QMIX, API-VDN, API-MAPPO and API-MADDPG algorithms proposed in our paper ["API: Boosting Multi-Agent Reinforcement Learning via Agent-Permutation-Invariant Networks"](https://arxiv.org/pdf/2203.05285.pdf) achieve State-Of-The-Art Performance in the [StarCraft Multi-Agent Challenge (SMAC)](https://github.com/oxwhirl/smac) and [Multi-agent Particle Environment](https://github.com/openai/multiagent-particle-envs) benchmarks, which achieves **100% win-rates in almost all hard and super-hard SMAC scenarios (never achieved before)**.
   - **We strongly recommend** that practitioners **try and use our API-Network solution FIRST** when solving practical MARL problems (because it is very easy to use and does work very well) !  We hope our works can promote the deployment and landing of MARL in more real-world applications.
 
-  See more [here](MARL/index.md).
+See more [here](MARL/index.md).
 
 
 # Self-supervised Reinforcement Learning (SSRL)

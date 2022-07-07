@@ -23,6 +23,10 @@ sys.path.insert(0, os.path.abspath('..'))
 import recommonmark
 from recommonmark.transform import AutoStructify
 
+source_parsers = {
+    '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
 
 source_suffix = ['.rst', '.md']
 
@@ -39,6 +43,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'recommonmark',
+    'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
