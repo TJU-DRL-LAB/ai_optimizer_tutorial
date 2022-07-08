@@ -9,8 +9,8 @@ nav:
         - 'Multiagent Reinforcement learning': 'libraries/MARL/index.md'
         - 'Self-supervised Representation Reinforcement Learning': 'libraries/SSRL/index.md'
         - 'Offline Reinforcement Learning':
-            - 'Introduction': libraries/Offline_RL/index.md'
-            - 'User Guidance': libraries/Offline_RL/user_guidence.md'
+            - 'Introduction': 'libraries/Offline_RL/index.md'
+            - 'User Guidance': 'libraries/Offline_RL/user_guidence.md'
         - 'Transfer and Multi-task Reinforcement Learning': 'libraries/Transfer_RL/index.md'
         - 'Model-based Reinforcement Learning': 'libraries/MBRL/index.md'
 
