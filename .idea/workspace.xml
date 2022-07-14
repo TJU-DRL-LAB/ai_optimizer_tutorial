@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53b1ddbe-d18a-4e88-9a1e-5ce660cb450d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_adroit.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +24,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="418">
-                <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+              <first_editor relative-caret-position="180">
+                <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,12 +48,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="20">
-                <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="18" />
+              <first_editor relative-caret-position="330">
+                <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,6 +135,7 @@
       <find>aiop</find>
       <find>:x:</find>
       <find>test_episodes</find>
+      <find>d3rlpy</find>
     </findStrings>
     <replaceStrings>
       <replace>❌</replace>
@@ -179,9 +177,9 @@
         <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidance.md" />
         <option value="$PROJECT_DIR$/mkdocs.yml" />
         <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco.md" />
-        <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md" />
         <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_adroit.md" />
         <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/index.md" />
+        <option value="$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md" />
       </list>
     </option>
   </component>
@@ -298,12 +296,12 @@
       <workItem from="1655978574370" duration="217000" />
       <workItem from="1656055395374" duration="51000" />
       <workItem from="1657177164527" duration="24173000" />
-      <workItem from="1657779837472" duration="4569000" />
+      <workItem from="1657779837472" duration="4870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34091000" />
+    <option name="totallyTimeSpent" value="34392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -493,16 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="20">
-            <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_adroit.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -516,8 +504,18 @@
     <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="418">
-            <caret line="121" column="15" selection-start-line="121" selection-start-column="15" selection-end-line="121" selection-end-column="15" />
+          <first_editor relative-caret-position="180">
+            <caret line="84" column="34" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/libraries/Offline_RL/user_guidence/d4rl_mujoco1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="98" column="33" selection-start-line="98" selection-start-column="33" selection-end-line="98" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
