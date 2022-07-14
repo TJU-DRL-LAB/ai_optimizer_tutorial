@@ -34,9 +34,9 @@ train_episodes, test_episodes = train_test_split(dataset, test_size=0.2)
 D4RL MuJoCo consists a suit of continuos control tasks, thus the available algorithms include:
 ```
   offline_rl_algorithms = ['AWAC', 'AWR', 'BCQ', 'UWAC', 'BEAR', 'CRR', 'CQL',\
-                           'MOPO', 'COMBO', 'PLAS', TD3PlusBC', 'SAC-N', 'EDAC']
+                           'MOPO', 'COMBO', 'PLAS', 'TD3PlusBC', 'SAC-N', 'EDAC']
   behaviour_cloning_algorithms = ['BC', 'ProbablisticBC']
-  online_rl_algorithms = ['DDPG', SAC', 'TD3']
+  online_rl_algorithms = ['DDPG', 'SAC', 'TD3']
   other_algorithms = ['RandomPolicy']
 ```
 
@@ -56,7 +56,6 @@ cql = CQL(actor_learning_rate=1e-4,
          temp_learning_rate=1e-4,
          actor_encoder_factory=encoder,
          critic_encoder_factory=encoder,
-         # q_func_factory='qr',
          batch_size=256,
          n_action_samples=10, # action sample number in 
          alpha_learning_rate=0.0, #  if greater than 0, the the alpha is dynamically adjusted
