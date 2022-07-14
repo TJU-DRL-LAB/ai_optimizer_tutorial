@@ -75,13 +75,13 @@ from tjuOfflineRL.metrics.scorer import average_value_estimation_scorer
 from tjuOfflineRL.metrics.scorer import evaluate_on_environment
 
 # calculate metrics with test dataset
-td_error = td_error_scorer(dqn, test_episodes)
+td_error = td_error_scorer(cql, test_episodes)
 
 # set environment in scorer function
 evaluate_scorer = evaluate_on_environment(env)
 
 # evaluate algorithm on the environment
-rewards = evaluate_scorer(dqn)
+rewards = evaluate_scorer(cql)
 ```
 
 
