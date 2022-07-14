@@ -1,8 +1,8 @@
 
-## User Guidance
+# User Guidance
 Here we introduce how to configure your own dataset and modify the algorithm based on your own design. 
 
-### Dataset
+## Dataset
 * Rewrite *tjuOfflineRL.get_dataset.py* to add *get_your_data* function in get_dataset function.
 ```
 def get_dataset(
@@ -87,7 +87,7 @@ parser.add_argument('--dataset', type=str, default='your dataset')
 args = parser.parse_args()
 get_dataset(args.dataset)
 ```
-### Modify Algorithm
+## Modify Algorithm
 Assuming you're modifying algorithm based on SAC: 
 * Create two python file, name them as *YourSAC.py* and *YourSACImpl.py*. 其中*YourSACImpl.py*中指定的*YourSACImpl* class继承*SACImpl*.
 ```
@@ -118,3 +118,8 @@ def _create_impl(self, observation_shape: Sequence[int], action_size: int) -> No
     self._impl = YourSACImpl(a=A, b=B, ...)
     self._impl.build()
 ```
+## Detailed Examples
+* D4RL Datasets
+    * [d4rl_mujoco](d4rl_mujoco1.md)
+    * [d4rl_adroit](d4rl_adroit.md)
+
